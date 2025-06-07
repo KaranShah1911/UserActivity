@@ -1,26 +1,30 @@
-# EventEase: Modular Event Management System
+# FanQueue: Smart Ticket Prioritization System
 
-EventEase is a C++-based modular system designed to streamline the management of events, shows, and user interactions. It encompasses components for bookings, user management, notifications, payment processing, and fan engagement.
+**FanQueue** is a C++-based event management system with an innovative twist: it prioritizes ticket bookings from the waiting list based on a user's fan score for a particular artist. This ensures that the most loyal fans get access to limited seats first.
 
-## 🚀 Features
+## 🎯 Project Goal
 
-- **User Management**: Handle user registrations, profiles, and authentication.
-- **Show Management**: Create and manage event listings with scheduling capabilities.
-- **Booking System**: Facilitate ticket bookings and manage seat allocations.
-- **Payment Subsystem**: Process payments securely and efficiently.
-- **Notifications**: Send timely updates and reminders to users.
-- **Fan Engagement**: Track and enhance fan interactions and scores.
+To implement a fair and intelligent ticket distribution system where loyal fans are rewarded with higher booking priority when events are overbooked or full.
 
-## 🛠️ Modules Overview
+## 🔧 Features
 
-- `UserManagement.cpp`: Manages user-related operations.
-- `ShowManagement.cpp`: Handles creation and management of shows/events.
-- `Bookings.cpp`: Processes ticket bookings and seat management.
-- `PaymentSubsystem.cpp`: Integrates payment gateways and handles transactions.
-- `Notifications.cpp`: Manages the dispatch of notifications to users.
-- `FanScore.cpp`: Tracks fan activities and engagement metrics.
+- 🎟️ **Intelligent Booking System**: Prioritizes waiting list based on fan engagement.
+- 👤 **User Management**: Register and manage users.
+- 🎤 **Artist-Based Fan Scoring**: Track user interactions with specific artists to compute a fan score.
+- 📅 **Show Management**: Create, modify, and view event details.
+- 💳 **Payment Integration**: Handle payment processes.
+- 🔔 **Notification Module**: Notify users about their booking status or updates.
+  
+## 🧩 Modules
 
-## 📦 Getting Started
+- `UserManagement.cpp`: Handles user registration and information.
+- `ShowManagement.cpp`: Manages show creation and listings.
+- `Bookings.cpp`: Processes bookings and prioritizes waiting list entries using fan score.
+- `FanScore.cpp`: Maintains and calculates fan scores for each artist per user.
+- `PaymentSubsystem.cpp`: Simulates or manages transactions.
+- `Notifications.cpp`: Sends alerts and updates to users.
+
+## 🚀 Getting Started
 
 1. **Clone the repository**:
    ```bash
